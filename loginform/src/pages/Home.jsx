@@ -10,9 +10,9 @@ const Home = () => {
         <h1>James</h1>
         <h2>New York</h2>
         <p>front-end developer</p>
-        <div>
-            <button>Message</button>
-            <button>Following</button>
+        <div className='btnn'>
+            <button className='message'>Message</button>
+            <button className='follow'>Following</button>
         </div>
         <ul>
             <li>UI/UX</li>
