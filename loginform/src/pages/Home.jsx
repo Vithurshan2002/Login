@@ -1,9 +1,31 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
+import profile from '../assets/photo-1532074205216-d0e1f4b87368.avif';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='container'>
+        <span>ONLINE</span>
+        <img src={profile} alt="no image" />
+        <h1>James</h1>
+        <h2>New York</h2>
+        <p>front-end developer</p>
+        <div>
+            <button>Message</button>
+            <button>Following</button>
+        </div>
+        <ul>
+            <li>UI/UX</li>
+            <li>Front End Developer</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Node</li>
+        </ul>
+
+    </div>
   )
 }
 
-export default Home
+export default Home;
