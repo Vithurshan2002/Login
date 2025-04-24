@@ -1,15 +1,15 @@
 import React from 'react';
 import './Home.css';
-import profile from '../assets/photo-1532074205216-d0e1f4b87368.avif';
 
-const Home = () => {
+
+const Home = (props) => {
   return (
     <div className='container'>
         <span className='view'>ONLINE</span>
-        <img className='profile' src={profile} alt="no image" />
-        <h1>James</h1>
-        <h2>New York</h2>
-        <p>front-end developer</p>
+        <img className='profile' src={props.data.profile} alt="no image" />
+        <h1>{props.data.name}</h1>
+        <h2>{props.data.city}</h2>
+        <p>{props.data.work}</p>
         <div className='btnn'>
             <button className='message'>Message</button>
             <button className='follow'>Following</button>
