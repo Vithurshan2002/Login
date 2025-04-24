@@ -5,8 +5,8 @@ import profile from '../assets/photo-1532074205216-d0e1f4b87368.avif';
 const Home = () => {
   return (
     <div className='container'>
-        <span>ONLINE</span>
-        <img src={profile} alt="no image" />
+        <span className='view'>ONLINE</span>
+        <img className='profile' src={profile} alt="no image" />
         <h1>James</h1>
         <h2>New York</h2>
         <p>front-end developer</p>
