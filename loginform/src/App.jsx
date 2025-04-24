@@ -4,6 +4,12 @@ function App() {
   return (
     <>
       <Home/>
+      <Home/>
+      <Home/>
+      <Home/>
+      <Home/>
+      <Home/>
+      
     </>
   )
 }
