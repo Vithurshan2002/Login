@@ -1,16 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Alice&family=Concert+One&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
-.profile{
+.profile {
     width: 100px;
     height: 100px;
-    border:4px solid white;
+    border: 4px solid white;
     border-radius: 100px;
     padding: 5px;
     margin-top: 15px;
-   
+
 }
-#root{
+
+#root {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
     background-color: rgb(225, 233, 233);
 }
 
-.container{
+.container {
     background-color: rgb(69, 70, 70);
     display: flex;
     flex-direction: column;
@@ -27,39 +27,83 @@
     justify-content: center;
     width: 300px;
     position: relative;
-    border-radius:10px ;
-    box-shadow:inset 3px 3px 2px white;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 2px white;
     transition: background-color 0.3s;
 }
-.container:hover{
+
+.container:hover {
     background-color: rgb(32, 32, 32);
-    cursor: pointer;
 }
-.view{
+
+.view {
     background-color: greenyellow;
     position: absolute;
     top: 10px;
-    left:10px;
+    left: 10px;
     padding: 2px;
     font-size: 10PX;
 }
 
-h1{
+h1 {
     margin-top: 5px;
     color: white;
 }
-h2{
-    margin-top:5px ;
+
+h2 {
+    margin-top: 5px;
     font-size: 15px;
     color: beige;
 }
-P{
-    margin-bottom:5px ;
+
+P {
+    margin-bottom: 5px;
     color: beige
 }
-.btnn{
+
+.btnn {
     display: flex;
     justify-content: space-between;
-    width:50%;
-    padding-top:12px;
+    width: 60%;
+    padding-top: 12px;
+}
+
+.message {
+    background-color: rgb(71, 201, 230);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+.follow {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+.message:hover {
+    cursor: pointer;
+}
+
+.follow:hover {
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+
+}
+.PARA{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:22px;
+    text-align: left;
 }

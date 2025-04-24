@@ -14,6 +14,7 @@ const Home = () => {
             <button className='message'>Message</button>
             <button className='follow'>Following</button>
         </div>
+        <p className='PARA'>SKILLS</p>
         <ul>
             <li>UI/UX</li>
             <li>Front End Developer</li>
